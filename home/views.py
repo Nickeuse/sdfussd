@@ -29,8 +29,19 @@ def ussdapp(request):
             response = "CON Welcome to ida technology USSD app \n "
             response +="1. Girls in code \n"
             response +="2. Sdf program "
+        elif text =='1':
+            response ="CON Welcome to Girls in code program \n"
+            response +="1. Join the program \n"
+            response +="2. Get activity \n"
+            response +="3. Leave"
+        elif text =='2':
+            response ="CON Welcome to Girls in code program \n"
+            response +="1. Join the program \n"
+            response +="2. Get activity \n"
+            response +="3. Leave"
+
         else:
-            response ="END "
+            response ="END INvalid choice "
             
         
 
