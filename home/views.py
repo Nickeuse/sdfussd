@@ -34,6 +34,14 @@ def ussdapp(request):
             response +="1. Join the program \n"
             response +="2. Get activity \n"
             response +="3. Leave"
+
+        elif text == '1*1':
+            response ="CON Enter your name"
+        elif text == '1*2':
+            response ="CON Enter your pincode"
+        elif text == '1*3':
+            response ="CON Enter your pincode"
+
         elif text =='2':
             response ="CON Welcome to Girls in code program \n"
             response +="1. Join the program \n"
